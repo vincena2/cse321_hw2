@@ -13,7 +13,7 @@ public class hw2_Test {
 	}
 	@Test
 	public void  test1() {
-		Calc test1 = new Calc();
+		Calc test = new Calc();
 		test1.subtract(2, 2);
 		assertEquals(3, 3);
 	}
