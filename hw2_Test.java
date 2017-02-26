@@ -6,16 +6,22 @@ import org.junit.Test;
 
 public class hw2_Test {
 	@Test
-	public void  test0() {
-		Calc test0 = new Calc();
-		test0.add(5, 2);
+	public void  testadd() {
+		Calc testadd = new Calc();
+		testadd.add(5, 2);
 		assertEquals(7, 7);
 	}
 	@Test
-	public void  test1() {
-		Calc test1 = new Calc();
-		test1.subtract(2, 2);
-		assertEquals(3, 3);
+	public void  testadd1() {
+		Calc testadd1 = new Calc();
+		testadd1.add(-5, 2);
+		assertEquals(-3, -3);
+	}
+	@Test
+	public void  add3() {
+		Calc add3 = new Calc();
+		add3.add(0, 0);
+		assertEquals(0, 0);
 	}
 
 	@Test
